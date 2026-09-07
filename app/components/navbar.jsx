@@ -8,7 +8,7 @@ export default function Navbar() {
         <nav className="fixed top-0 left-0 right-0 z-50 bg-[#eef3f8]/85 backdrop-blur-md border-b border-slate-200/60">
             <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between relative">
                 <a href="#" className="flex items-center">
-                    <img src="/images/logo.png" alt="Logo" className="h-10 w-auto" />
+                    <img src="/Porfolio-Fariha/images/logo.png" alt="Logo" className="h-10 w-auto" />
                 </a>
 
                 <div className="hidden md:flex gap-10 text-sm font-bold uppercase tracking-wider text-slate-500 absolute left-1/2 -translate-x-1/2">
