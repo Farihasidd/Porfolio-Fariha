@@ -48,7 +48,7 @@ export default function Hero() {
                         <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-full bg-white shadow-xl border border-slate-100 p-4 flex items-center justify-center">
                             <div className="w-full h-full rounded-full overflow-hidden">
                                 <img
-                                    src="/profile.jpg"
+                                    src="/Porfolio-Fariha/images/profile.jpg"
                                     alt="Fariha Siddiqui"
                                     className="w-full h-full object-cover"
                                 />
