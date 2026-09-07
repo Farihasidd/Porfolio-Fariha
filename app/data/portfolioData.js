@@ -20,22 +20,22 @@ export const services = [
     {
         title: 'Full Stack Application Development',
         desc: 'Building scalable end-to-end web and mobile applications with clean architecture.',
-        image: '/images/fullstack-3d.png',
+        image: '/Porfolio-Fariha/images/fullstack-3d.png',
     },
     {
         title: 'Cross-Platform Mobile Applications',
         desc: 'High-performance iOS & Android mobile apps engineered with Flutter.',
-        image: '/images/mobile-3d.png',
+        image: '/Porfolio-Fariha/images/mobile-3d.png',
     },
     {
         title: 'Backend API & Database Development',
         desc: 'Scalable REST APIs, Firebase backend services, and real-time database management.',
-        image: '/images/backend-3d.png',
+        image: '/Porfolio-Fariha/images/backend-3d.png',
     },
     {
         title: 'State Management & App Architecture',
         desc: 'Structured codebases built with GetX, BLoC, and Provider for maximum stability.',
-        image: '/images/architecture-3d.png',
+        image: '/Porfolio-Fariha/images/architecture-3d.png',
     },
 ];
 
@@ -100,7 +100,7 @@ export const projects = [
         desc: 'Smart B2B marketplace where buyers post RFQs and suppliers list products with intelligent keyword matching.',
         link: 'https://apps.apple.com/pk/app/%D9%85%D8%B7%D9%8D%D9%84%D9%88%D8%A8-%D8%B7%D8%A8%D9%8A-mtloob/id6753684200',
         badge: 'B2B Platform',
-        'image': '/images/matloob.png'
+        'image': '/Porfolio-Fariha/images/matloob.png'
     },
     {
         title: 'Decotec Raumvisualisierer',
@@ -108,7 +108,7 @@ export const projects = [
         desc: 'AR room-visualization app for a German flooring company: scans rooms, detects furniture, and renders new flooring realistically in real-time.',
         link: 'https://apps.apple.com/si/app/decotec-raumvisualisierer/id1553271609',
         badge: 'AR Experience',
-        'image': '/images/decotec.png'
+        'image': '/Porfolio-Fariha/images/decotec.png'
     },
     {
         title: 'Oncolight',
@@ -116,7 +116,7 @@ export const projects = [
         desc: 'Telehealth app enabling patients to submit consultations online and physicians to respond securely with professional advice and treatment recommendations.',
         link: null,
         badge: 'Digital Healthcare',
-        'image': '/images/oncolight.png'
+        'image': '/Porfolio-Fariha/images/oncolight.png'
     },
     {
         title: 'Biteffect',
@@ -124,7 +124,7 @@ export const projects = [
         desc: 'Food-scanning app that lets users scan barcodes to instantly view calories, sugar, salt, and nutritional content.',
         link: 'https://apps.apple.com/us/app/biteffect/id6754243490',
         badge: 'Nutrition Tech',
-        'image': '/images/biteffect.png'
+        'image': '/Porfolio-Fariha/images/biteffect.png'
     },
     {
         title: 'HobbyMate',
@@ -132,7 +132,7 @@ export const projects = [
         desc: 'Hobby community hub where users discover groups, chat with nearby hobbyists, book workshops, and trade gear in a built-in marketplace.',
         link: 'https://apps.apple.com/us/app/hobbymate/id6749037434',
         badge: 'Community & Market',
-        'image': '/images/hobbymate.png'
+        'image': '/Porfolio-Fariha/images/hobbymate.png'
     },
     {
         title: 'Askadoc Telemedicine',
@@ -140,7 +140,7 @@ export const projects = [
         desc: 'Appointment-booking telemedicine platform connecting doctors and patients for online video and chat consultations.',
         link: 'https://play.google.com/store/apps/details?id=com.askadoc.app&hl=en',
         badge: 'Telemedicine',
-        'image': '/images/askadoc.png'
+        'image': '/Porfolio-Fariha/images/askadoc.png'
     },
     {
         title: 'Nail Connect',
@@ -148,7 +148,7 @@ export const projects = [
         desc: 'On-demand salon staffing marketplace where salons post shifts and professionals apply and clock in/out with Stripe payments.',
         link: null,
         badge: 'On-Demand Staffing',
-        'image': '/images/nailconnect.png'
+        'image': '/Porfolio-Fariha/images/nailconnect.png'
     },
     {
         title: 'Astra Labs Loyalty',
@@ -156,7 +156,7 @@ export const projects = [
         desc: 'Customer loyalty app enabling registered users to track reward points based on purchases, fully synced with an internal CRM.',
         link: 'https://apps.apple.com/us/app/astra-labs/id6745259234',
         badge: 'Loyalty & CRM',
-        'image': '/images/astralabs.png'
+        'image': '/Porfolio-Fariha/images/astralabs.png'
     },
     {
         title: 'Healink Habit Tracking',
@@ -164,7 +164,7 @@ export const projects = [
         desc: 'Habit tracking app that lets users build routines, log daily progress, earn achievements, and view weekly score summaries.',
         link: 'https://play.google.com/store/apps/details?id=com.healink.app',
         badge: 'Wellness',
-        'image': '/images/healink.png'
+        'image': '/Porfolio-Fariha/images/healink.png'
     },
     {
         title: 'Athenos Gym & Fitness',
@@ -172,7 +172,7 @@ export const projects = [
         desc: 'Gym companion app offering custom workout plans, 1RM calculator, RPE chart, and warmup planner.',
         link: 'https://apps.apple.com/us/app/athenos-gvm-fitness-workout/id6745703053',
         badge: 'Fitness',
-        'image': '/images/athenos.png'
+        'image': '/Porfolio-Fariha/images/athenos.png'
     },
     {
         title: 'Rentify',
@@ -180,7 +180,7 @@ export const projects = [
         desc: 'Two-sided product rental marketplace serving renters and rentees with secure Stripe payments.',
         link: 'https://apps.apple.com/pk/app/rentify-rent-earn/id6742651750',
         badge: 'Rental Market',
-        'image': '/images/rentify.png'
+        'image': '/Porfolio-Fariha/images/rentify.png'
     },
     {
         title: 'OGA (On Good Authority)',
@@ -188,7 +188,7 @@ export const projects = [
         desc: 'Social recommendation app replacing scattered links by letting users save and share curated lists with friends.',
         link: 'https://apps.apple.com/pk/app/oga-i-on-good-authority/id6739505173',
         badge: 'Social',
-        'image': '/images/oga.png'
+        'image': '/Porfolio-Fariha/images/oga.png'
     },
     {
         title: 'Aquame Wellness & Finance',
@@ -196,7 +196,7 @@ export const projects = [
         desc: 'Holistic wellness app helping users manage finances, physical health, and mental well-being in a single dashboard.',
         link: null,
         badge: 'Holistic Tech',
-        'image': '/images/aquame.png'
+        'image': '/Porfolio-Fariha/images/aquame.png'
     },
     {
         title: 'Lahakni User & Driver',
@@ -204,7 +204,7 @@ export const projects = [
         desc: 'Dual-sided ride-hailing suite with real-time location mapping, driver earnings tracking, fare calculation, and push notifications.',
         link: null,
         badge: 'Ride Hailing',
-        'image': '/images/lahakni.png'
+        'image': '/Porfolio-Fariha/images/lahakni.png'
     },
     {
         title: 'Restaurant POS System',
@@ -212,7 +212,7 @@ export const projects = [
         desc: 'Point-of-sale system for restaurants to manage menus, process active orders, print bills, and track daily sales analytics.',
         link: null,
         badge: 'POS Solution',
-        'image': '/images/pos.png'
+        'image': '/Porfolio-Fariha/images/pos.png'
     },
     {
         title: 'iGetSporty',
@@ -220,7 +220,7 @@ export const projects = [
         desc: 'Sports venue booking platform for organizing local matches and reserving fields across various sports.',
         link: null,
         badge: 'Sports Booking',
-        'image': '/images/igetsporty.png'
+        'image': '/Porfolio-Fariha/images/igetsporty.png'
     },
     {
         title: 'Muslimeen',
@@ -228,7 +228,7 @@ export const projects = [
         desc: 'Comprehensive Quran and lifestyle app built for everyday reading, offline reference, and spiritual routine tracking.',
         link: null,
         badge: 'Lifestyle',
-        'image': '/images/muslimeen.png'
+        'image': '/Porfolio-Fariha/images/muslimeen.png'
     }
 ];
 

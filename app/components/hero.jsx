@@ -63,7 +63,7 @@ export default function Hero() {
                             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-16 h-16 rounded-full bg-white shadow-lg border border-slate-100 flex items-center justify-center hover:scale-110 transition-transform"
                         >
                             <img
-                                src="/images/linkedin.png"
+                                src="/Porfolio-Fariha/images/linkedin.png"
                                 alt="LinkedIn"
                                 className="w-9 h-9 object-contain"
                             />
@@ -77,7 +77,7 @@ export default function Hero() {
                             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-16 h-16 rounded-full bg-white shadow-lg border border-slate-100 flex items-center justify-center hover:scale-110 transition-transform"
                         >
                             <img
-                                src="/images/github.png"
+                                src="/Porfolio-Fariha/images/github.png"
                                 alt="GitHub"
                                 className="w-9 h-9 object-contain"
                             />
