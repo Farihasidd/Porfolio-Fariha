@@ -22,19 +22,14 @@ import About from './components/about';
 const sectionVariants: Variants = {
   hidden: {
     opacity: 0,
-    y: 70,
-    scale: 0.97,
-    filter: 'blur(6px)',
+    y: 40,
   },
 
   visible: {
     opacity: 1,
     y: 0,
-    scale: 1,
-    filter: 'blur(0px)',
-
     transition: {
-      duration: 0.8,
+      duration: 0.7,
       ease: [0.22, 1, 0.36, 1],
     },
   },
@@ -106,8 +101,7 @@ function AnimatedSection({
       whileInView="visible"
       viewport={{
         once: true,
-        amount: 0.12,
-        margin: '0px 0px -80px 0px',
+        amount: 0.05,
       }}
       transition={{
         delay,
