@@ -13,7 +13,7 @@ const IconGlobe = dynamic(() => import('./iconGlobe'), {
 export default function Hero() {
     return (
         <section className="min-h-screen bg-slate-50 flex items-center justify-center px-6 py-12 pt-28 lg:pt-12">
-            <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center">
 
                 {/* Left Side */}
                 <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-6">
@@ -87,7 +87,7 @@ export default function Hero() {
                 </div>
 
                 {/* Right Side: Interactive Icon Globe */}
-                <div className="flex justify-center items-center mt-8 lg:mt-0 mx-auto w-full max-w-[280px] sm:max-w-sm lg:max-w-lg lg:mx-0">
+                <div className="flex justify-center items-center -mt-4 sm:-mt-8 lg:mt-0 mx-auto w-full max-w-[360px] sm:max-w-md lg:max-w-lg lg:mx-0">
                     <IconGlobe />
                 </div>
 

@@ -8,37 +8,59 @@ const iconSlugs = [
     // Mobile & Core
     'flutter',
     'dart',
+    'kotlin',
+    'swift',
     'android',
     'apple',
     'ios',
 
     // Backend, Databases & APIs
     'firebase',
+    'nodedotjs',
+    'express',
     'mysql',
     'mongodb',
     'sqlite',
     'postgresql',
+    'redis',
+    'graphql',
     'postman',
 
     // Frontend & Web
     'react',
     'nextdotjs',
+    'redux',
     'typescript',
     'javascript',
     'html5',
     'css3',
     'tailwindcss',
+    'sass',
+    'vuedotjs',
 
     // Tools & DevOps
     'git',
     'github',
+    'gitlab',
     'docker',
+    'kubernetes',
+    'nginx',
+    'linux',
+    'amazonaws',
+    'googlecloud',
+    'vercel',
+    'netlify',
     'cisco',
     'python',
     'wordpress',
     'stripe',
     'googlemaps',
-    'figma'
+    'figma',
+    'visualstudiocode',
+    'npm',
+    'yarn',
+    'jira',
+    'slack',
 ];
 
 export default function IconGlobe() {
@@ -54,13 +76,18 @@ export default function IconGlobe() {
         return Object.values(data.simpleIcons).map((icon) =>
             renderSimpleIcon({
                 icon,
-                size: 38, // Slightly reduced size to fit more icons cleanly
+                size: 42, // Bumped up slightly to match the larger cloud
                 aProps: {
                     href: undefined,
                     onClick: (e) => e.preventDefault(),
+                    tabIndex: -1,
                     style: {
-                        pointerEvents: 'none', // Prevents clicks and browser focus
-                        outline: 'none',        // Removes any default focus outlines
+                        pointerEvents: 'none',
+                        outline: 'none',
+                        border: 'none',
+                        boxShadow: 'none',
+                        background: 'transparent',
+                        textDecoration: 'none',
                     },
                 },
             })
@@ -69,7 +96,8 @@ export default function IconGlobe() {
 
     return (
         <div
-            className="relative flex items-center justify-center overflow-hidden w-full max-w-lg mx-auto rounded-full"
+            className="relative flex items-center justify-center overflow-hidden w-full max-w-3xl mx-auto rounded-full"
+            style={{ minHeight: '600px' }}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
@@ -77,14 +105,14 @@ export default function IconGlobe() {
                 options={{
                     // Fluid rotation dynamics
                     initial: [0.03, -0.03],
-                    maxSpeed: isHovered ? 0.02 : 0.06, // Slows down when hovering anywhere inside the container
-                    minSpeed: isHovered ? 0.01 : 0.03,
+                    maxSpeed: isHovered ? 0.03 : 0.08, // Slows down when hovering anywhere inside the container
+                    minSpeed: isHovered ? 0.02 : 0.05,
                     decel: 0.98,
 
                     // Clean visual rendering (No outlines or tooltips)
                     activeCursor: 'default',
                     tooltip: null,
-                    outlineColour: '0000',
+                    outlineColour: 'transparent',
                     outlineOffset: 0,
                     clickToFront: false,
 

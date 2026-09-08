@@ -135,7 +135,7 @@ export const projects = [
         'image': '/Porfolio-Fariha/images/hobbymate.png'
     },
     {
-        title: 'Askadoc Telemedicine',
+        title: 'Askadoc - Telemedicine',
         category: 'Health & Telehealth',
         desc: 'Appointment-booking telemedicine platform connecting doctors and patients for online video and chat consultations.',
         link: 'https://play.google.com/store/apps/details?id=com.askadoc.app&hl=en',
@@ -151,30 +151,6 @@ export const projects = [
         'image': '/Porfolio-Fariha/images/nailconnect.png'
     },
     {
-        title: 'Astra Labs Loyalty',
-        category: 'E-Commerce & B2B',
-        desc: 'Customer loyalty app enabling registered users to track reward points based on purchases, fully synced with an internal CRM.',
-        link: 'https://apps.apple.com/us/app/astra-labs/id6745259234',
-        badge: 'Loyalty & CRM',
-        'image': '/Porfolio-Fariha/images/astralabs.png'
-    },
-    {
-        title: 'Healink Habit Tracking',
-        category: 'Health & Telehealth',
-        desc: 'Habit tracking app that lets users build routines, log daily progress, earn achievements, and view weekly score summaries.',
-        link: 'https://play.google.com/store/apps/details?id=com.healink.app',
-        badge: 'Wellness',
-        'image': '/Porfolio-Fariha/images/healink.png'
-    },
-    {
-        title: 'Athenos Gym & Fitness',
-        category: 'Health & Telehealth',
-        desc: 'Gym companion app offering custom workout plans, 1RM calculator, RPE chart, and warmup planner.',
-        link: 'https://apps.apple.com/us/app/athenos-gvm-fitness-workout/id6745703053',
-        badge: 'Fitness',
-        'image': '/Porfolio-Fariha/images/athenos.png'
-    },
-    {
         title: 'Rentify',
         category: 'E-Commerce & B2B',
         desc: 'Two-sided product rental marketplace serving renters and rentees with secure Stripe payments.',
@@ -182,6 +158,32 @@ export const projects = [
         badge: 'Rental Market',
         'image': '/Porfolio-Fariha/images/rentify.png'
     },
+
+    {
+        title: 'Healink- Habit & Wellness Tracker',
+        category: 'Health & Telehealth',
+        desc: 'Habit tracking app that lets users build routines, log daily progress, earn achievements, and view weekly score summaries.',
+        link: 'https://play.google.com/store/apps/details?id=com.healink.app',
+        badge: 'Wellness',
+        'image': '/Porfolio-Fariha/images/healink.png'
+    },
+    {
+        title: 'Athenos - Gym & Fitness',
+        category: 'Health & Telehealth',
+        desc: 'Gym companion app offering custom workout plans, 1RM calculator, RPE chart, and warmup planner.',
+        link: 'https://apps.apple.com/us/app/athenos-gvm-fitness-workout/id6745703053',
+        badge: 'Fitness',
+        'image': '/Porfolio-Fariha/images/athenos.png'
+    },
+    {
+        title: 'Astra Labs - Loyalty',
+        category: 'E-Commerce & B2B',
+        desc: 'Customer loyalty app enabling registered users to track reward points based on purchases, fully synced with an internal CRM.',
+        link: 'https://apps.apple.com/us/app/astra-labs/id6745259234',
+        badge: 'Loyalty & CRM',
+        'image': '/Porfolio-Fariha/images/astralabs.png'
+    },
+
     {
         title: 'OGA (On Good Authority)',
         category: 'Mobile Apps',
@@ -191,12 +193,12 @@ export const projects = [
         'image': '/Porfolio-Fariha/images/oga.png'
     },
     {
-        title: 'Aquame Wellness & Finance',
+        title: 'HolistiView - Wellness & Finance',
         category: 'Health & Telehealth',
         desc: 'Holistic wellness app helping users manage finances, physical health, and mental well-being in a single dashboard.',
         link: null,
         badge: 'Holistic Tech',
-        'image': '/Porfolio-Fariha/images/aquame.png'
+        'image': '/Porfolio-Fariha/images/holistiview.png'
     },
     {
         title: 'Lahakni User & Driver',
