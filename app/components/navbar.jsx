@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const navItems = [
     { label: 'Home', href: '#home' },
-    { label: 'About', href: '#about-me' },
+    { label: 'About', href: '#about' },
     { label: 'Work', href: '#projects' },
     { label: 'Skills', href: '#skills' },
     { label: 'Contact', href: '#contact' },
@@ -120,17 +120,17 @@ export default function Navbar() {
 
                                 <button
                                     onClick={closeMenu}
-                                    className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
+                                    className="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 hover:bg-indigo-50 hover:text-indigo-600 transition-colors"
                                     aria-label="Close menu"
                                 >
-                                    <X size={20} />
+                                    <X size={18} />
                                 </button>
                             </div>
 
                             {/* Navigation Links */}
                             <div className="px-6 py-8 space-y-2">
                                 {navItems.map((item, index) => (
-                                    <motion.a
+                                    <a
                                         key={item.href}
                                         href={item.href}
                                         onClick={closeMenu}
@@ -148,7 +148,7 @@ export default function Navbar() {
                                         <span className="text-slate-300 group-hover:text-indigo-500 group-hover:translate-x-1 transition-all">
                                             →
                                         </span>
-                                    </motion.a>
+                                    </a>
                                 ))}
                             </div>
 

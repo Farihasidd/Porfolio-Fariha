@@ -25,7 +25,7 @@ const contactOptions = [
     {
         title: 'WhatsApp',
         description: 'Quick chat & availability',
-        href: 'https://wa.me/YOUR_PHONE_NUMBER',
+        href: 'https://wa.me/+923247066049',
         icon: MessageCircle,
     },
     {

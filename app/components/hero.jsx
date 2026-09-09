@@ -12,7 +12,7 @@ const IconGlobe = dynamic(() => import('./iconGlobe'), {
 
 export default function Hero() {
     return (
-        <section className="min-h-screen bg-slate-50 flex items-center justify-center px-6 py-12 pt-28 lg:pt-12">
+        <section id="home" className="min-h-screen bg-slate-50 flex items-center justify-center px-6 py-12 pt-28 lg:pt-12">
             <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center">
 
                 {/* Left Side */}
